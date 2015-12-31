@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2244F889EF5C686B45329BAA /* libPods-MSPYEPSeedingClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C848DBB5A7282D63728E219E /* libPods-MSPYEPSeedingClient.a */; };
+		6F52FA1D1AF3A48D0068D740 /* PQEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F52FA1C1AF3A48D0068D740 /* PQEvent.m */; };
+		6FE246091AF143760025F4BA /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE246081AF143760025F4BA /* Quartz.framework */; };
 		6FE3CFF41AEFFDC40058F03F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3CFF31AEFFDC40058F03F /* AppDelegate.m */; };
 		6FE3CFF61AEFFDC40058F03F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3CFF51AEFFDC40058F03F /* main.m */; };
 		6FE3CFF91AEFFDC40058F03F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3CFF81AEFFDC40058F03F /* ViewController.m */; };
 		6FE3CFFB1AEFFDC40058F03F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3CFFA1AEFFDC40058F03F /* Images.xcassets */; };
 		6FE3CFFE1AEFFDC40058F03F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3CFFC1AEFFDC40058F03F /* Main.storyboard */; };
 		6FE3D00A1AEFFDC40058F03F /* MSPYEPSeedingClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3D0091AEFFDC40058F03F /* MSPYEPSeedingClientTests.m */; };
+		6FE3D0161AEFFDFC0058F03F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0141AEFFDFC0058F03F /* Bolts.framework */; };
+		6FE3D0171AEFFDFC0058F03F /* ParseOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0151AEFFDFC0058F03F /* ParseOSX.framework */; };
+		6FE3D0191AEFFE350058F03F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0181AEFFE350058F03F /* CFNetwork.framework */; };
+		6FE3D01B1AEFFE3D0058F03F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D01A1AEFFE3D0058F03F /* CoreGraphics.framework */; };
+		6FE3D01D1AEFFE420058F03F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D01C1AEFFE420058F03F /* CoreLocation.framework */; };
+		6FE3D01F1AEFFE480058F03F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D01E1AEFFE480058F03F /* QuartzCore.framework */; };
+		6FE3D0211AEFFE520058F03F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0201AEFFE520058F03F /* Security.framework */; };
+		6FE3D0231AEFFE580058F03F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0221AEFFE580058F03F /* SystemConfiguration.framework */; };
+		6FE3D0251AEFFE620058F03F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0241AEFFE620058F03F /* libsqlite3.dylib */; };
+		6FE3D0271AEFFE680058F03F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3D0261AEFFE680058F03F /* libz.dylib */; };
+		6FE3D0291AEFFE940058F03F /* Bolts.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FE3D0141AEFFDFC0058F03F /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6FE3D02A1AEFFE950058F03F /* ParseOSX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6FE3D0151AEFFDFC0058F03F /* ParseOSX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +40,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6FE3D0281AEFFE7F0058F03F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6FE3D0291AEFFE940058F03F /* Bolts.framework in CopyFiles */,
+				6FE3D02A1AEFFE950058F03F /* ParseOSX.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5FF4988F2FA284CB598ECEC7 /* Pods-MSPYEPSeedingClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPSeedingClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPSeedingClient/Pods-MSPYEPSeedingClient.release.xcconfig"; sourceTree = "<group>"; };
+		6F52FA1B1AF3A48D0068D740 /* PQEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PQEvent.h; sourceTree = "<group>"; };
+		6F52FA1C1AF3A48D0068D740 /* PQEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PQEvent.m; sourceTree = "<group>"; };
+		6FE246081AF143760025F4BA /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		6FE3CFED1AEFFDC40058F03F /* MSPYEPSeedingClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSPYEPSeedingClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE3CFF11AEFFDC40058F03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE3CFF21AEFFDC40058F03F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +71,18 @@
 		6FE3D0031AEFFDC40058F03F /* MSPYEPSeedingClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSPYEPSeedingClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE3D0081AEFFDC40058F03F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE3D0091AEFFDC40058F03F /* MSPYEPSeedingClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPYEPSeedingClientTests.m; sourceTree = "<group>"; };
+		6FE3D0141AEFFDFC0058F03F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6FE3D0151AEFFDFC0058F03F /* ParseOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseOSX.framework; sourceTree = "<group>"; };
+		6FE3D0181AEFFE350058F03F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6FE3D01A1AEFFE3D0058F03F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FE3D01C1AEFFE420058F03F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6FE3D01E1AEFFE480058F03F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FE3D0201AEFFE520058F03F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6FE3D0221AEFFE580058F03F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6FE3D0241AEFFE620058F03F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		6FE3D0261AEFFE680058F03F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9BB2BFB1B5749E173FC18D69 /* Pods-MSPYEPSeedingClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSPYEPSeedingClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSPYEPSeedingClient/Pods-MSPYEPSeedingClient.debug.xcconfig"; sourceTree = "<group>"; };
+		C848DBB5A7282D63728E219E /* libPods-MSPYEPSeedingClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSPYEPSeedingClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +90,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE246091AF143760025F4BA /* Quartz.framework in Frameworks */,
+				6FE3D0271AEFFE680058F03F /* libz.dylib in Frameworks */,
+				6FE3D0251AEFFE620058F03F /* libsqlite3.dylib in Frameworks */,
+				6FE3D0231AEFFE580058F03F /* SystemConfiguration.framework in Frameworks */,
+				6FE3D0211AEFFE520058F03F /* Security.framework in Frameworks */,
+				6FE3D01F1AEFFE480058F03F /* QuartzCore.framework in Frameworks */,
+				6FE3D01D1AEFFE420058F03F /* CoreLocation.framework in Frameworks */,
+				6FE3D01B1AEFFE3D0058F03F /* CoreGraphics.framework in Frameworks */,
+				6FE3D0191AEFFE350058F03F /* CFNetwork.framework in Frameworks */,
+				6FE3D0161AEFFDFC0058F03F /* Bolts.framework in Frameworks */,
+				6FE3D0171AEFFDFC0058F03F /* ParseOSX.framework in Frameworks */,
+				2244F889EF5C686B45329BAA /* libPods-MSPYEPSeedingClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +115,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F01B42379429F05078CA831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BB2BFB1B5749E173FC18D69 /* Pods-MSPYEPSeedingClient.debug.xcconfig */,
+				5FF4988F2FA284CB598ECEC7 /* Pods-MSPYEPSeedingClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6FE3CFE41AEFFDC40058F03F = {
 			isa = PBXGroup;
 			children = (
+				6FE3D0131AEFFDE40058F03F /* Frameworks */,
 				6FE3CFEF1AEFFDC40058F03F /* MSPYEPSeedingClient */,
 				6FE3D0061AEFFDC40058F03F /* MSPYEPSeedingClientTests */,
 				6FE3CFEE1AEFFDC40058F03F /* Products */,
+				0F01B42379429F05078CA831 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +154,8 @@
 				6FE3CFFA1AEFFDC40058F03F /* Images.xcassets */,
 				6FE3CFFC1AEFFDC40058F03F /* Main.storyboard */,
 				6FE3CFF01AEFFDC40058F03F /* Supporting Files */,
+				6F52FA1B1AF3A48D0068D740 /* PQEvent.h */,
+				6F52FA1C1AF3A48D0068D740 /* PQEvent.m */,
 			);
 			path = MSPYEPSeedingClient;
 			sourceTree = "<group>";
@@ -116,6 +186,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6FE3D0131AEFFDE40058F03F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FE246081AF143760025F4BA /* Quartz.framework */,
+				6FE3D0261AEFFE680058F03F /* libz.dylib */,
+				6FE3D0241AEFFE620058F03F /* libsqlite3.dylib */,
+				6FE3D0221AEFFE580058F03F /* SystemConfiguration.framework */,
+				6FE3D0201AEFFE520058F03F /* Security.framework */,
+				6FE3D01E1AEFFE480058F03F /* QuartzCore.framework */,
+				6FE3D01C1AEFFE420058F03F /* CoreLocation.framework */,
+				6FE3D01A1AEFFE3D0058F03F /* CoreGraphics.framework */,
+				6FE3D0181AEFFE350058F03F /* CFNetwork.framework */,
+				6FE3D0141AEFFDFC0058F03F /* Bolts.framework */,
+				6FE3D0151AEFFDFC0058F03F /* ParseOSX.framework */,
+				C848DBB5A7282D63728E219E /* libPods-MSPYEPSeedingClient.a */,
+			);
+			name = Frameworks;
+			path = MSPYEPSeedingClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FE3D00D1AEFFDC40058F03F /* Build configuration list for PBXNativeTarget "MSPYEPSeedingClient" */;
 			buildPhases = (
+				4FD7B141F0C7996008011EED /* Check Pods Manifest.lock */,
 				6FE3CFE91AEFFDC40058F03F /* Sources */,
 				6FE3CFEA1AEFFDC40058F03F /* Frameworks */,
 				6FE3CFEB1AEFFDC40058F03F /* Resources */,
+				6FE3D0281AEFFE7F0058F03F /* CopyFiles */,
+				B85947FCA29F7BFA328B1C0E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +303,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FD7B141F0C7996008011EED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B85947FCA29F7BFA328B1C0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSPYEPSeedingClient/Pods-MSPYEPSeedingClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FE3CFE91AEFFDC40058F03F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -218,6 +344,7 @@
 				6FE3CFF91AEFFDC40058F03F /* ViewController.m in Sources */,
 				6FE3CFF61AEFFDC40058F03F /* main.m in Sources */,
 				6FE3CFF41AEFFDC40058F03F /* AppDelegate.m in Sources */,
+				6F52FA1D1AF3A48D0068D740 /* PQEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,9 +459,14 @@
 		};
 		6FE3D00E1AEFFDC40058F03F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BB2BFB1B5749E173FC18D69 /* Pods-MSPYEPSeedingClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSPYEPSeedingClient",
+				);
 				INFOPLIST_FILE = MSPYEPSeedingClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,9 +475,14 @@
 		};
 		6FE3D00F1AEFFDC40058F03F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF4988F2FA284CB598ECEC7 /* Pods-MSPYEPSeedingClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MSPYEPSeedingClient",
+				);
 				INFOPLIST_FILE = MSPYEPSeedingClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,6 +544,7 @@
 				6FE3D00F1AEFFDC40058F03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FE3D0101AEFFDC40058F03F /* Build configuration list for PBXNativeTarget "MSPYEPSeedingClientTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +553,7 @@
 				6FE3D0121AEFFDC40058F03F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

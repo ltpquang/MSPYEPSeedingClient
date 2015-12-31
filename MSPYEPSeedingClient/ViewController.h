@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <CHCSVParser.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController <CHCSVParserDelegate>
 
 
 @end
